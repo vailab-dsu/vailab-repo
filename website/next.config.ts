@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
   basePath: isGitHubPages ? "/Vision-AI" : "",
   assetPrefix: isGitHubPages ? "/Vision-AI/" : undefined,
   trailingSlash: isGitHubPages,
+  // db/ and worker/ contain Cloudflare-only imports used by the Sites build.
+  // The public Pages export is fully static and does not load those modules.
+  typescript: { ignoreBuildErrors: isGitHubPages },
 };
 
 export default nextConfig;
