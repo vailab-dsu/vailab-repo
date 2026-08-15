@@ -6,8 +6,10 @@ This repository organizes research resources from VAI Lab at Dong Seoul Universi
 
 - **UxV**
   - [Vision AI](UxV/Vision-AI/)
+    - [TriV-Net UAV Perception](UxV/Vision-AI/TriV-Net-UAV-Perception/)
   - [Path Planning](UxV/Path-Planning/)
 - **[Medical AI](Medical-AI/)**
+  - [Rabbit Brain Histopathology Dataset](Medical-AI/Rabbit-Brain-Histopathology-Dataset/)
 
 ## Structure
 
@@ -15,8 +17,10 @@ This repository organizes research resources from VAI Lab at Dong Seoul Universi
 vailab-repo/
 ├── UxV/
 │   ├── Vision-AI/
+│   │   └── TriV-Net-UAV-Perception/
 │   └── Path-Planning/
 └── Medical-AI/
+    └── Rabbit-Brain-Histopathology-Dataset/
 ```
 
-Project-specific code, models, datasets, and documentation will be added later.
+Project-specific code, models, datasets, and documentation are organized within each research area.
