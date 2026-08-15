@@ -1,10 +1,22 @@
-- 👋 Hi, I’m Taegeun Oh. I'm working for Dept. of Electronic Engneeing, Dong Seoul University, Korea.
-- 👀 I’m interested in Path Planning and Task Assignment for Self-driving Vehicles, Drones and Robots, etc.
-- 🌱 I’m currently learning about Artifical Intelligence such as Deep Learning(Supervised, Reinforcement, ...) and Planning(Path, Task, ...)
-- 💞️ I’m looking to collaborate on these researches.
-- 📫 How to reach me : tgoh84@gmail.com / tgoh@du.ac.kr
+# VAI Lab Research Repository
 
-<!---
-Brown27/Brown27 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+This repository organizes research resources from VAI Lab at Dong Seoul University.
+
+## Research Areas
+
+- **UxV**
+  - [Vision AI](UxV/Vision-AI/)
+  - [Path Planning](UxV/Path-Planning/)
+- **[Medical AI](Medical-AI/)**
+
+## Structure
+
+```text
+vailab-repo/
+├── UxV/
+│   ├── Vision-AI/
+│   └── Path-Planning/
+└── Medical-AI/
+```
+
+Project-specific code, models, datasets, and documentation will be added later.
